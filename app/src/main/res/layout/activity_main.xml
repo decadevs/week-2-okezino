@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    <TextView-->
+<!--        android:id="@+id/displayScreenCount"-->
+<!--        android:layout_width="211dp"-->
+<!--        android:layout_height="37dp"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="-1"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/button"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:onClick="nextActivity"
+        android:shadowColor="#100101"
+        android:text="CREATE FRAGMENT"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@color/black" />
+
+    <TextView
+        android:id="@+id/lifeCycleView"
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:background="#F3F1F1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDisplayStateChange" />
+
+    <TextView
+        android:id="@+id/textViewDisplayStateChange"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:background="@color/cardview_dark_background"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
