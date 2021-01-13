@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">JOS_WEEK2_TASK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">TextView :  %1$d</string>
+    <string name="fragmentText3">FRAGMENT POSITION..: %1$d</string>
+    <string name="fragmentText2">FRAGMENT POSITION..: %1$d</string>
+    <string name="fragmentText1">FRAGMENT POSITION..: %1$d</string>
+    <string name="position">Position: %1$d</string>
+    <string name="fragmentText4">FRAGMENT POSITION..: %1$d</string>
+    <string name="onResume">onResume State</string>
+    <string name="onPause">OnPaused State</string>
+    <string name="onCreate">onCreate State</string>
+    <string name="onRestart">OnRestart State</string>
+    <string name="onStart">OnStart State</string>
+    <string name="onStop">OnStop State</string>
+    <string name="onDestroy">OnDestroy State</string>
+</resources>
